@@ -16,7 +16,7 @@ Clone the repository to get started:
 ```bash
 git clone https://github.com/somyajangir/Voice-Enabled-Interactive-Chatbot.git
 
-### 2️⃣ Install Dependencies:
+## 2️⃣ Install Dependencies:
 You’ll need the following libraries:
 
 - `speech_recognition` 📡
@@ -30,7 +30,7 @@ Install them using pip:
 pip install speech_recognition pyttsx3 google-generativeai python-dotenv
 
 
-### 3️⃣ Set Up Your Gemini API Key:
+## 3️⃣ Set Up Your Gemini API Key:
 To use the Gemini API, you’ll need to set up your API key:
 
 - Get your Gemini API key from Google Cloud.
@@ -39,16 +39,16 @@ To use the Gemini API, you’ll need to set up your API key:
 ```env
 GEMINI_API_KEY=your-api-key-here
 
-### 4️⃣ Run the Chatbot:
+## 4️⃣ Run the Chatbot:
 Now you are ready to interact with the chatbot. Run the following command to start the bot:
 
 ```bash
 python main.py
 
-### 5️⃣ Start Chatting! 🎉
+## 5️⃣ Start Chatting! 🎉
 The chatbot will prompt you to speak your question, and it will reply using text-to-speech.
 
-### 🤔 How it Works:
+## 🤔 How it Works:
 - 🎧 **Speech Recognition**: The chatbot listens to your voice using the `speech_recognition` library.
 - ⚡ **Gemini API**: Your question is sent to the Gemini API, which generates a response.
 - 🔊 **Voice Output**: The response is spoken back to you using the `pyttsx3` library.
