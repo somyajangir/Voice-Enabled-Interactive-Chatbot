@@ -8,6 +8,16 @@ Welcome to the **Voice-Enabled Interactive Chatbot**! 🚀 This is a **voice-to-
 - **⚡ Easy API Setup**: Simply provide your own Gemini API key to start using the bot.
 - **💾 Chat History Database**: All conversations are saved in a `conversation_history.json` file, allowing you to keep track of the chatbot's past interactions.
 
+## 📁 Project Structure:
+```
+Voice-Enabled-Interactive-Chatbot/
+├── helpers/
+│   └── database.py
+├── main.py
+├── .env
+└── conversation_history.json
+```
+
 ## 🛠️ Installation:
 
 ### 1️⃣ Clone the Repository:
