@@ -40,7 +40,7 @@ pip install speech_recognition pyttsx3 google-generativeai python-dotenv
 
 ### 3️⃣ Set Up Your Gemini API Key:
 To use the Gemini API, you'll need to set up your API key:
-- Get your Gemini API key from Google Cloud.
+- Get your gemini-1.5-flash API key from Google AI Studio.
 - Create a `.env` file in the root directory and add your API key like this:
 ```env
 GEMINI_API_KEY=your-api-key-here
